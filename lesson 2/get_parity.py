@@ -1,7 +1,7 @@
 s=int(input("Введите число:"))
 def parity(s):
     if s%2==0:
-        print("Число ",s," четное")
+        return "Число {0} четное".format(s)
     elif s%2!=0:
-        print("Число ",s," нечетное")
+        return "Число {0} нечетное".format(s)
 print(parity(s))  
